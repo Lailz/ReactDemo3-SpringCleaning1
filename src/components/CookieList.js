@@ -4,7 +4,7 @@ import React from "react";
 import CookieItem from "./CookieItem";
 
 // Data
-import cookies from "./cookies";
+import cookies from "../cookies";
 
 // Styling
 import styles from "../styles";
