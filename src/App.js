@@ -1,19 +1,12 @@
 import React from "react";
 
-// Data
-import cookies from "./cookies";
+// Components
+import CookieList from "./components/CookieList";
 
 // Styling
 import styles from "./styles";
 
 function App() {
-  const cookieList = cookies.map(cookie => (
-    <div style={styles.cookie} key={cookie.id}>
-      <img style={styles.cookieImage} alt={cookie.name} src={cookie.image} />
-      <p style={styles.text}>{cookie.name}</p>
-      <p style={styles.text}>{cookie.price} KD</p>
-    </div>
-  ));
   return (
     <div style={styles.body}>
       <div>
@@ -25,7 +18,7 @@ function App() {
           style={styles.shopImage}
         />
       </div>
-      <div style={styles.list}>{cookieList}</div>
+      <CookieList />
     </div>
   );
 }
