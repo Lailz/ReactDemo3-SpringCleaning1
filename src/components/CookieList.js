@@ -1,19 +1,16 @@
-import React from "react";
+import React from 'react';
 
 // Components
-import CookieItem from "./CookieItem";
+import CookieItem from './CookieItem';
 
 // Data
-import cookies from "../cookies";
-
-// Styling
-import styles from "../styles";
+import cookies from '../cookies';
 
 const CookieList = () => {
-  const cookieList = cookies.map(cookie => (
+  const cookieList = cookies.map((cookie) => (
     <CookieItem cookie={cookie} key={cookie.id} />
   ));
-  return <div style={styles.list}>{cookieList}</div>;
+  return <div className="list">{cookieList}</div>;
 };
 
 export default CookieList;
