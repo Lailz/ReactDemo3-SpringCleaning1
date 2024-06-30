@@ -18,7 +18,7 @@ const products = [
     name: "Katakeet Cookie",
     price: 7,
     image:
-      "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd34%2Feaster-chick-egg-cookies-102921707%2Feaster-chick-egg-cookies-102921707_horiz.jpg%3Fitok%3DUBZfwNLI",
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/1/30/0/FNK_CHICK-SLICE-N-BAKE-COOKIES-H_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1548878028601.jpeg",
   },
 ];
 
